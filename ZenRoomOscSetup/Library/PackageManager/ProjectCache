@@ -1,0 +1,640 @@
+m_ProjectFiles:
+  m_ManifestFileStatus:
+    m_FilePath: /Users/jak/Desktop/med8/OscJackVS-main copy/Packages/manifest.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637865591680000000
+    m_Hash: 4106938228
+  m_LockFileStatus:
+    m_FilePath: /Users/jak/Desktop/med8/OscJackVS-main copy/Packages/packages-lock.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637865591680000000
+    m_Hash: 2206246492
+m_EmbeddedPackageManifests:
+  m_ManifestsStatus:
+    /Users/jak/Desktop/med8/OscJackVS-main copy/Packages/jp.keijiro.osc-jack.visualscripting/package.json:
+      m_FilePath: /Users/jak/Desktop/med8/OscJackVS-main copy/Packages/jp.keijiro.osc-jack.visualscripting/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637865591680000000
+      m_Hash: 3061068160
+m_LocalPackages:
+  m_LocalFileStatus: []
+m_ProjectPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Packages
+m_EditorVersion: 2021.3.1f1 (3b70a0754835)
+m_ResolvedPackages:
+- packageId: jp.keijiro.test-assets@1.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.1
+  source: 1
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/jp.keijiro.test-assets@1.0.1
+  assetPath: Packages/jp.keijiro.test-assets
+  name: jp.keijiro.test-assets
+  displayName: Test Assets
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Generic placeholder assets for testing/prototyping.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.2
+    - 1.0.1
+    compatible:
+    - 0.0.2
+    - 1.0.1
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: scoped:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637098241237030000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/keijiro/jp.keijiro.test-assets.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: jp.keijiro.osc-jack.visualscripting@file:/Users/jak/Desktop/med8/OscJackVS-main
+    copy/Packages/jp.keijiro.osc-jack.visualscripting
+  testable: 1
+  isDirectDependency: 1
+  version: 2.0.0
+  source: 3
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Packages/jp.keijiro.osc-jack.visualscripting
+  assetPath: Packages/jp.keijiro.osc-jack.visualscripting
+  name: jp.keijiro.osc-jack.visualscripting
+  displayName: OscJackVS
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: OSC extension for Visual Scripting
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.2
+    - 2.0.0
+    compatible:
+    - 1.0.2
+    - 2.0.0
+    verified: 
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.visualscripting
+    version: 1.5.2
+  - name: jp.keijiro.osc-jack
+    version: 2.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  - name: com.unity.visualscripting
+    version: 1.7.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: jp.keijiro.osc-jack
+    version: 2.0.0
+  keywords:
+  - unity
+  registry:
+    id: scoped:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.modules.uielements@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.modules.uielements@1.0.0
+  assetPath: Packages/com.unity.modules.uielements
+  name: com.unity.modules.uielements
+  displayName: UIElements
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The UIElements module implements the UIElements retained mode UI
+    framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.visualscripting@1.7.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.7.6
+  source: 1
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.visualscripting@1.7.6
+  assetPath: Packages/com.unity.visualscripting
+  name: com.unity.visualscripting
+  displayName: Visual Scripting
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: tool
+  description: 'Visual scripting is a workflow that uses visual, node-based graphs
+    to design behaviors rather than write lines of C# script.
+
+
+    Enabling artists,
+    designers and programmers alike, visual scripting can be used to design final
+    logic, quickly create prototypes, iterate on gameplay and create custom nodes
+    to help streamline collaboration.
+
+
+    Visual scripting is compatible with third-party
+    APIs, including most packages, assets and custom libraries.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
+    - 1.7.8
+    - 1.8.0-pre.1
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
+    compatible:
+    - 1.7.6
+    - 1.7.7
+    - 1.7.8
+    - 1.8.0
+    - 1.9.0
+    - 1.9.1
+    - 1.9.2
+    verified: 1.7.8
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637722460580000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
+    revision: 64599611822e37717efdd2fa1a0576e1984155fc
+    path: 
+  unityLifecycle:
+    version: 1.7.6
+    nextVersion: 
+- packageId: jp.keijiro.osc-jack@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/jp.keijiro.osc-jack@2.0.0
+  assetPath: Packages/jp.keijiro.osc-jack
+  name: jp.keijiro.osc-jack
+  displayName: OSC Jack
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Lightweight implementation of OSC server/client
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: scoped:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637864686106600000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/keijiro/OscJack.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.ugui@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.ugui@1.0.0
+  assetPath: Packages/com.unity.ugui
+  name: com.unity.ugui
+  displayName: Unity UI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Unity UI is a set of tools for developing user interfaces for games
+    and applications. It is a GameObject-based UI system that uses Components and
+    the Game View to arrange, position, and style user interfaces. \u200B You cannot
+    use Unity UI to create or change user interfaces in the Unity Editor."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - UI
+  - ugui
+  - Unity UI
+  - Canvas
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.modules.jsonserialize@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+  assetPath: Packages/com.unity.modules.jsonserialize
+  name: com.unity.modules.jsonserialize
+  displayName: JSONSerialize
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The JSONSerialize module provides the JsonUtility class which lets
+    you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.modules.ui@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.modules.ui@1.0.0
+  assetPath: Packages/com.unity.modules.ui
+  name: com.unity.modules.ui
+  displayName: UI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The UI module implements basic components required for Unity''s UI
+    system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.modules.imgui@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.modules.imgui@1.0.0
+  assetPath: Packages/com.unity.modules.imgui
+  name: com.unity.modules.imgui
+  displayName: IMGUI
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
+    creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.modules.uielementsnative@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/jak/Desktop/med8/OscJackVS-main copy/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
+  assetPath: Packages/com.unity.modules.uielementsnative
+  name: com.unity.modules.uielementsnative
+  displayName: UIElements Native
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
