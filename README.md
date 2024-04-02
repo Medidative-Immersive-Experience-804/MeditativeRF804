@@ -1,2 +1,4 @@
-Zen Room Meditative Experiance (For VR and Physical)
+Zen Room Meditative Experiance 
 -------------------
+
+(virtual reality and physical reality)
