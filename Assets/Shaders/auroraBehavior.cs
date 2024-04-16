@@ -22,22 +22,22 @@ public class auroraBehavior : MonoBehaviour
         Material.SetColor("_Color", Color);
     }
 
-    void updateGreen(float paceOfChange)
+    public void updateGreen(float paceOfChange)
     {
         Color.g += paceOfChange;
     }
 
-    void updateBlue(float paceOfChange)
+    public void updateBlue(float paceOfChange)
     {
         Color.b += paceOfChange;
     }
 
-    float getGreen()
+    public float getGreen()
     {
         return Color.g;
     }
 
-    float getBlue()
+    public float getBlue()
     {
         return Color.b;
     }
