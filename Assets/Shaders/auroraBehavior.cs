@@ -5,11 +5,7 @@ using UnityEngine;
 public class auroraBehavior : MonoBehaviour
 {
     public Material Material;
-    float paceOfChange;
     Color Color;
-    string PropertyName;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +19,27 @@ public class auroraBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Material.SetColor("_Color", Color);
     }
 
+    void updateGreen(float paceOfChange)
+    {
+        Color.g += paceOfChange;
+    }
+
+    void updateBlue(float paceOfChange)
+    {
+        Color.b += paceOfChange;
+    }
+
+    float getGreen()
+    {
+        return Color.g;
+    }
+
+    float getBlue()
+    {
+        return Color.b;
+    }
     
 }
