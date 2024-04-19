@@ -6,6 +6,7 @@ public class auroraBehavior : MonoBehaviour
 {
     public Material Material;
     Color Color;
+    public Vector2 Speed;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,9 @@ public class auroraBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        moveSpeed();
         Material.SetColor("_Color", Color);
+        Material.SetVector("_speed", Speed);
     }
 
     public void updateGreen(float paceOfChange)
@@ -40,6 +43,11 @@ public class auroraBehavior : MonoBehaviour
     public float getBlue()
     {
         return Color.b;
+    }
+
+    public void moveSpeed()
+    {
+        Speed.x += 0.0005f;
     }
     
 }

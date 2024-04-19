@@ -230,13 +230,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195959495}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7041405, y: -0, z: -0, w: 0.7100607}
-  m_LocalPosition: {x: 0.0041029, y: 3.14, z: 7.19}
-  m_LocalScale: {x: 2.3197072, y: 1, z: 0.5620552}
+  m_LocalRotation: {x: 0, y: 0.7100563, z: 0.7041449, w: 0}
+  m_LocalPosition: {x: -0.58, y: 5.49, z: 9.87}
+  m_LocalScale: {x: 7.053441, y: 1, z: 1.9925512}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -89.521, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.521, y: 180, z: 0}
 --- !u!114 &195959500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Speed: {x: 0, y: 0}
 --- !u!1 &257810521
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,6 +1000,7 @@ GameObject:
   - component: {fileID: 949365513}
   - component: {fileID: 949365512}
   - component: {fileID: 949365511}
+  - component: {fileID: 949365515}
   m_Layer: 0
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -1087,12 +1089,26 @@ Transform:
   m_GameObject: {fileID: 949365510}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7041405, y: -0, z: -0, w: 0.7100607}
-  m_LocalPosition: {x: 0.25, y: 1.63, z: 7.18}
-  m_LocalScale: {x: 2.3197072, y: 1, z: 0.5620552}
+  m_LocalPosition: {x: 0.25, y: 0.2, z: 8.39}
+  m_LocalScale: {x: 4.9173155, y: 1, z: 1.4151425}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -89.521, y: 0, z: 0}
+--- !u!114 &949365515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949365510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Material: {fileID: 2100000, guid: fcbd7a9922c95ea45a5b81d96b0a25cc, type: 2}
+  Speed: {x: 0, y: 0}
 --- !u!1001 &974485680
 PrefabInstance:
   m_ObjectHideFlags: 0
