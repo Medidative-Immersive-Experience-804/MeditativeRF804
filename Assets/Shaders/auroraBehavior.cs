@@ -8,8 +8,9 @@ public class auroraBehavior : MonoBehaviour
     //Blue 0.55
     //Red 0.47
     //20 = 0.08
+    
     public Material Material;
-    Color Color;
+    Color Blue, Green, Purple, ColorOne, ColorTwo; 
     public Vector2 Speed;
     public GameObject ColorCube, SizeCube, PaceCube;
     float speedIncrease = 0.005f;
@@ -24,10 +25,27 @@ public class auroraBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Color = Color.clear;
-        Color.g = 1;
-        Color.b = 1;
-        Material.SetColor("_Color", Color);
+        //Setting the different Colors
+        Blue = Color.clear;
+        Blue.r = 0f;
+        Blue.g = 0f;
+        Blue.b = 1f;
+
+        Purple = Color.clear;
+        Purple.r = 0.47f;
+        Purple.g = 0f;
+        Purple.b = 0.55f;
+
+        Green = Color.clear;
+        Green.r = 0f;
+        Green.g = 1f;
+        Green.b = 0f;
+
+        ColorOne = Blue;
+        ColorTwo = Green;
+        
+        Material.SetColor("_ColorOne", ColorOne);
+        Material.SetColor("_ColorTwo", ColorTwo);
     }
 
     // Update is called once per frame
@@ -43,39 +61,42 @@ public class auroraBehavior : MonoBehaviour
         updateSpeed();
         
         //Setting the Material shader variables
-        Material.SetColor("_Color", Color);
+        Material.SetColor("_ColorOne", ColorOne);
+        Material.SetColor("_ColorTwo", ColorTwo);
         Material.SetVector("_speed", Speed);
     }
 
-    public void updateGreen()
+    public void updateColorX()
     {
         //Maps x pos to green color
-        Color.g = map(getCubePosZ(ColorCube), xMin, xMax, 0, 1);
-    }
-
-    public void updateBlue()
-    {
-        //Maps z pos to blue color
-        Color.b = map(getCubePosX(ColorCube), zMin, zMax, 0, 1);
-    }
-
-    public void updateRed()
-    {
-        //Maps y pos to red color
-        Color.r = map(getCubePosY(ColorCube), yMin, yMax, 0f, 0.47f);
-
-        //If statement makes sure we don't have to much red in the color compared to blue
-        if(Color.r > Color.b - redBlueThresh)
+        if (getCubePosX(ColorCube) > xMin && getCubePosX(ColorCube) < xMax/2f)  
         {
-            Color.r = Color.b - redBlueThresh;
+            ColorTwo = Color.Lerp(Green, Blue, map(getCubePosZ(ColorCube), xMin, xMax/2f, 0, 1));
+        }
+        if (getCubePosX(ColorCube) > xMax/2f && getCubePosX(ColorCube) < xMax)
+        {
+            ColorTwo = Color.Lerp(Blue, Purple, map(getCubePosZ(ColorCube), xMax/2f, xMax, 0, 1));
         }
     }
 
+    public void updateColorZ()
+    {
+        //Maps x pos to green color
+        if (getCubePosZ(ColorCube) > zMin && getCubePosZ(ColorCube) < zMax / 2f)
+        {
+            ColorOne = Color.Lerp(Green, Blue, map(getCubePosZ(ColorCube), zMin, zMax / 2f, 0, 1));
+        }
+        if (getCubePosX(ColorCube) > zMax / 2f && getCubePosX(ColorCube) < zMax)
+        {
+            ColorOne = Color.Lerp(Blue, Purple, map(getCubePosZ(ColorCube), zMax / 2f, zMax, 0, 1));
+        }
+    }
+
+
     public void updateColor()
     {
-        updateGreen();
-        updateBlue();
-        updateRed();
+        updateColorX();
+        updateColorZ();
     }
 
     public void updateSpeed()

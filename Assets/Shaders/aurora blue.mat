@@ -130,12 +130,15 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _mask_power: 1.63
+    - _mask_power: 1.1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.5060381, g: 1.1644005, b: 0.5860381, a: 0}
+    - _ColorBlue: {r: 0.030838393, g: 0.15056577, b: 0.9339623, a: 0}
+    - _ColorOne: {r: 0.32954365, g: 0, b: 0.6844795, a: 0}
+    - _ColorTwo: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _speed: {r: 3.4642823, g: 0, b: 0, a: 0}
+    - _speed: {r: 6.386525, g: 0, b: 0, a: 0}
     - _tilling: {r: 4.48, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
