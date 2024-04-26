@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class auroraBehavior : MonoBehaviour
@@ -14,10 +15,10 @@ public class auroraBehavior : MonoBehaviour
     public Vector2 Speed;
     public GameObject ColorCube, SizeCube, PaceCube;
     float speedIncrease = 0.005f;
-    float xMin = -0.508f;
-    float xMax = 0.449f;
-    float zMin = -0.506f;
-    float zMax = 0.455f;
+    float xMin = -0.277f;
+    float xMax = 0.473f;
+    float zMin = -0.409f;
+    float zMax = 0.336f;
     float yMin = 0.001f;
     float yMax = 0.05f;
     float redBlueThresh = 0.08f;
@@ -52,18 +53,18 @@ public class auroraBehavior : MonoBehaviour
     void Update()
     {
         //Moves the 
-        moveSpeed();
+        //moveSpeed();
 
         //Updates the color of the light according to the colorcube
         updateColor();
 
         //Update speed according to x pos of the speedcube
-        updateSpeed();
+        //updateSpeed();
         
         //Setting the Material shader variables
         Material.SetColor("_ColorOne", ColorOne);
         Material.SetColor("_ColorTwo", ColorTwo);
-        Material.SetVector("_speed", Speed);
+        //Material.SetVector("_speed", Speed);
     }
 
     public void updateColorX()
@@ -72,10 +73,12 @@ public class auroraBehavior : MonoBehaviour
         if (getCubePosX(ColorCube) > xMin && getCubePosX(ColorCube) < xMax/2f)  
         {
             ColorTwo = Color.Lerp(Green, Blue, map(getCubePosZ(ColorCube), xMin, xMax/2f, 0, 1));
+            Debug.Log("ColorTwo should be between  Green and blue");
         }
         if (getCubePosX(ColorCube) > xMax/2f && getCubePosX(ColorCube) < xMax)
         {
             ColorTwo = Color.Lerp(Blue, Purple, map(getCubePosZ(ColorCube), xMax/2f, xMax, 0, 1));
+            Debug.Log("ColorTwo should be between Blue and Purple");
         }
     }
 
@@ -85,10 +88,12 @@ public class auroraBehavior : MonoBehaviour
         if (getCubePosZ(ColorCube) > zMin && getCubePosZ(ColorCube) < zMax / 2f)
         {
             ColorOne = Color.Lerp(Green, Blue, map(getCubePosZ(ColorCube), zMin, zMax / 2f, 0, 1));
+            Debug.Log("ColorOne should be between Green and Blue");
         }
         if (getCubePosX(ColorCube) > zMax / 2f && getCubePosX(ColorCube) < zMax)
         {
             ColorOne = Color.Lerp(Blue, Purple, map(getCubePosZ(ColorCube), zMax / 2f, zMax, 0, 1));
+            Debug.Log("ColorOne should be between Blue and Purple");
         }
     }
 
@@ -111,12 +116,13 @@ public class auroraBehavior : MonoBehaviour
 
     float getCubePosZ(GameObject Cube)
     {
-        return Cube.transform.position.z;
+        return Cube.transform.localPosition.z;
     }
 
     float getCubePosX(GameObject Cube)
     {
-        return Cube.transform.position.x;
+        return Cube.transform.localPosition.x;
+
     }
 
     float getCubePosY(GameObject Cube)
