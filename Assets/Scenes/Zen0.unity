@@ -3763,11 +3763,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heightMap: {fileID: 0}
   drawShader: {fileID: 4800000, guid: 4932c221ac2634b48b0b1db5948b9ecd, type: 3}
-  brushSize: 3.27
-  brushStrength: 0.73
+  brushSize: 16.34
+  brushStrength: 2.16
   sandLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!20 &1948693200 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7990873191231833673, guid: 5eccbf4be2c00e94689ee8062e4e7276,
@@ -4206,6 +4206,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858958239974820153, guid: 5eccbf4be2c00e94689ee8062e4e7276,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7973328002167281074, guid: 5eccbf4be2c00e94689ee8062e4e7276,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7990873191187716717, guid: 5eccbf4be2c00e94689ee8062e4e7276,
         type: 3}
