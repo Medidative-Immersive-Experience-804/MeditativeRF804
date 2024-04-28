@@ -17,6 +17,17 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.collections": {
+      "version": "2.1.4",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
@@ -65,6 +76,64 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.muse.chat": {
+      "version": "1.0.0-pre.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.serialization": "3.1.1",
+        "com.unity.muse.common": "1.0.0",
+        "com.unity.sentis": "1.4.0-pre.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.muse.common": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.muse.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.muse.common": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.muse.texture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.muse.common": "1.0.0",
+        "com.unity.shadergraph": "14.0.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "14.0.10",
       "depth": 1,
@@ -101,6 +170,27 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.sentis": {
+      "version": "1.4.0-pre.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.12",
+        "com.unity.collections": "1.2.4",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.serialization": {
+      "version": "3.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.collections": "2.1.4",
+        "com.unity.burst": "1.7.2"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
