@@ -847,7 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: 3479a04e05eb11d449c0ea116621ac5d, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 1868374042}
   SizeCube: {fileID: 0}
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: b3f30a323f13bc04f9bd8af2aa068d9b, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 77681346}
   SizeCube: {fileID: 0}
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: f94f3604b54d30f4e9120842ca194d59, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 113487284}
   SizeCube: {fileID: 0}
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: 931018ab845022945b15079b283048a6, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 1542489612}
   SizeCube: {fileID: 0}
@@ -2135,7 +2135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: 931018ab845022945b15079b283048a6, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 1542489612}
   SizeCube: {fileID: 0}
@@ -2326,6 +2326,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562157571349563880, guid: 6bd2061e3056445559f716bbee078dd7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1072.8151
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562157571349563880, guid: 6bd2061e3056445559f716bbee078dd7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1147.9714
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562157571349563880, guid: 6bd2061e3056445559f716bbee078dd7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000067055
+      objectReference: {fileID: 0}
+    - target: {fileID: 2562157571349563880, guid: 6bd2061e3056445559f716bbee078dd7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000029802
       objectReference: {fileID: 0}
     - target: {fileID: 2562157571349563880, guid: 6bd2061e3056445559f716bbee078dd7,
         type: 3}
@@ -2688,7 +2708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: 3479a04e05eb11d449c0ea116621ac5d, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 1868374042}
   SizeCube: {fileID: 0}
@@ -2812,7 +2832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: f94f3604b54d30f4e9120842ca194d59, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 113487284}
   SizeCube: {fileID: 0}
@@ -3330,7 +3350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10bdd782a57cd2478395d4d345f0bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material: {fileID: 2100000, guid: 257e41891b4d10245abe5d6858ef4978, type: 2}
+  Material: {fileID: 2100000, guid: b3f30a323f13bc04f9bd8af2aa068d9b, type: 2}
   Speed: {x: 0, y: 0}
   ColorCube: {fileID: 77681346}
   SizeCube: {fileID: 0}
@@ -3503,7 +3523,7 @@ PrefabInstance:
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.21
+      value: -0.234
       objectReference: {fileID: 0}
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
@@ -3513,7 +3533,7 @@ PrefabInstance:
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.278
+      value: -0.402
       objectReference: {fileID: 0}
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
@@ -4054,7 +4074,7 @@ PrefabInstance:
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.449
+      value: 0.407
       objectReference: {fileID: 0}
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
@@ -4064,7 +4084,7 @@ PrefabInstance:
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.257
+      value: -0.415
       objectReference: {fileID: 0}
     - target: {fileID: 9171031756790316709, guid: f5afcb7f49afad5419049090809f5cc7,
         type: 3}

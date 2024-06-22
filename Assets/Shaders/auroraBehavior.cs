@@ -4,12 +4,7 @@ using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class auroraBehavior : MonoBehaviour
-{
-
-    //Blue 0.55
-    //Red 0.47
-    //20 = 0.08
-    
+{    
     public Material Material;
     Color Blue, Green, Purple, ColorOne, ColorTwo; 
     public Vector2 Speed;
@@ -23,7 +18,6 @@ public class auroraBehavior : MonoBehaviour
     float yMax = 0.05f;
     float redBlueThresh = 0.08f;
 
-    // Start is called before the first frame update
     void Start()
     {
         //Setting the different Colors
@@ -52,14 +46,7 @@ public class auroraBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Moves the 
-        //moveSpeed();
-
-        //Updates the color of the light according to the colorcube
         updateColor();
-
-        //Update speed according to x pos of the speedcube
-        //updateSpeed();
         
         //Setting the Material shader variables
         Material.SetColor("_ColorOne", ColorOne);
@@ -72,7 +59,7 @@ public class auroraBehavior : MonoBehaviour
         //Maps x pos to green color
         if (getCubePosX(ColorCube) > xMin && getCubePosX(ColorCube) < xMax/2f)  
         {
-            ColorTwo = Color.Lerp(Green, Blue, map(getCubePosZ(ColorCube), xMin, xMax/2f, 0, 1));
+            ColorTwo = Color.Lerp(Green, Blue, map(getCubePosX(ColorCube), xMin, xMax/2f, 0, 1));
             Debug.Log("ColorTwo should be between  Green and blue");
         }
         if (getCubePosX(ColorCube) > xMax/2f && getCubePosX(ColorCube) < xMax)
@@ -90,7 +77,7 @@ public class auroraBehavior : MonoBehaviour
             ColorOne = Color.Lerp(Green, Blue, map(getCubePosZ(ColorCube), zMin, zMax / 2f, 0, 1));
             Debug.Log("ColorOne should be between Green and Blue");
         }
-        if (getCubePosX(ColorCube) > zMax / 2f && getCubePosX(ColorCube) < zMax)
+        if (getCubePosZ(ColorCube) > zMax / 2f && getCubePosZ(ColorCube) < zMax)
         {
             ColorOne = Color.Lerp(Blue, Purple, map(getCubePosZ(ColorCube), zMax / 2f, zMax, 0, 1));
             Debug.Log("ColorOne should be between Blue and Purple");
