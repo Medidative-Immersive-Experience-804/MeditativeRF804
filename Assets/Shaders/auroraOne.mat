@@ -41,6 +41,6 @@ Material:
     m_Floats:
     - _mask_power: 0.6
     m_Colors:
-    - _ColorOne: {r: 0, g: 0, b: 1, a: 0}
+    - _ColorOne: {r: 0, g: 0.99481976, b: 0.005180232, a: 0}
     - _ColorTwo: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
